@@ -69421,6 +69421,23 @@ textarea.form-control-lg {
     font-size: 1.6rem;
   }
 }
+.footer-sm .glow {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.footer-sm .glow:hover {
+  animation: neon6 1.5s ease-in-out infinite alternate;
+  -webkit-animation: neon6 1.5s ease-in-out infinite;
+}
+@keyframes neon6 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff9900, 0 0 70px #ff9900, 0 0 80px #ff9900, 0 0 100px #ff9900, 0 0 150px #ff9900;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900, 0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
+  }
+}
 
 .back-to-top {
   position: fixed;
