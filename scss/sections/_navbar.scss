@@ -1,0 +1,46 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.menu{
+    @include gradient;
+
+  
+li{
+    padding: 0 0.7rem;
+    a{
+        color: $white !important; 
+        text-transform: capitalize;
+        font-weight: 600;
+    }    
+}
+
+
+   .logo1{
+    height: 50%; 
+    width: 50%;
+    margin : -8rem 0vw ;
+   }
+
+   .nav-item-1{
+       &:hover{
+           background-color:$secondary ;
+
+       }  
+   }
+   .nav-item-2{
+    &:hover{
+        background-color: $secondary;
+    }  
+}
+.nav-item-3{
+    &:hover{
+        background-color: $secondary;
+    }  
+}
+.nav-item-4{
+    &:hover{
+        background-color: $secondary;
+    }  
+}
+
+}

@@ -1,0 +1,16 @@
+@use 'custom';
+
+//Import Components
+@import 'components/animations';
+@import 'components/buttons';
+@import 'components/mixins';
+@import 'components/typography';
+
+//Import Sections
+
+@import 'sections/navbar';
+@import 'sections/footer';
+@import 'sections/get-started';
+@import 'sections/intro-section';
+@import 'sections/portfolio';
+@import 'sections/life'

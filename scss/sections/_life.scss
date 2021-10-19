@@ -1,0 +1,34 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+
+.life{
+    
+
+    .otaku ,.laptop,.comedy, .phone{
+        position: relative;
+        width:100%;
+        height:18.5rem;
+        overflow: hidden;
+        margin-bottom: 1.2rem;
+        
+    
+    
+        img{
+            width:100%;
+            height: 100%;
+        }
+    
+        .naruto,.mikasa,.luffy,.pavilion,.angler,.leo{
+           &:hover {
+            transform: scale(1.1);
+        
+            @include transitionProperty;
+}}
+}
+
+
+}
+
+        

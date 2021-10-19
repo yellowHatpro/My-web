@@ -1,0 +1,17 @@
+// pulse border
+
+@keyframes pulse-border {
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        opacity: 1;
+}
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
