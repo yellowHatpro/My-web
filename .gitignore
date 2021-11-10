@@ -1,4 +1,4 @@
-assets/css
+assets/css/
 node_modules/.bin/autoprefixer
 node_modules/.bin/autoprefixer.cmd
 node_modules/.bin/autoprefixer.ps1
